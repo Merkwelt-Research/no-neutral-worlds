@@ -1,0 +1,26 @@
+{
+  "ongoing": {
+    "runs": 20,
+    "pending_units": 1035,
+    "runs_with_pending_units": 17,
+    "last_order_means": {
+      "google/gemma-4-31b-it": 89.5,
+      "qwen/qwen3-235b-a22b-2507": 89.6
+    },
+    "lexical_match_days": 1,
+    "lexical_match_days_81_90": 0,
+    "runs_exceeding_loss_10": 1
+  },
+  "terminal_score": {
+    "runs": 20,
+    "pending_units": 25,
+    "runs_with_pending_units": 1,
+    "last_order_means": {
+      "google/gemma-4-31b-it": 78.9,
+      "qwen/qwen3-235b-a22b-2507": 86.5
+    },
+    "lexical_match_days": 66,
+    "lexical_match_days_81_90": 43,
+    "runs_exceeding_loss_10": 5
+  }
+}

@@ -1,0 +1,49 @@
+name: fantasy_dark
+meta:
+  shop_name: "Token & Trinket"
+  shop_noun: "shop"
+  persona: "shopkeeper"
+  currency: "gold"
+  supplier: "the Merchant's Guild"
+  reflection_noun: "journal entry"
+  daily_fee_label: "rent and guild dues"
+  world: "a fading market town in a medieval fantasy realm, in the lean years after the good ones ended"
+
+# Identical to the fantasy theme by design: the valence arm manipulates the
+# ambient world only. Slugs, names, and descriptions must not differ.
+items:
+  item_1: { slug: health_potion,  name: "Health Potion",  desc: "Restores vitality. A staple for adventurers and the accident-prone." }
+  item_2: { slug: mana_potion,    name: "Mana Potion",    desc: "Replenishes magical energy. Favored by wizards and students of the arcane." }
+  item_3: { slug: stamina_potion, name: "Stamina Potion", desc: "Banishes fatigue. Popular with laborers, couriers, and the chronically busy." }
+  item_4: { slug: strength_tonic, name: "Strength Tonic", desc: "Grants a temporary surge of might. Sells well before tournaments and brawls." }
+  item_5: { slug: antidote,       name: "Antidote",       desc: "Neutralizes common poisons. A slow but steady seller." }
+  item_6: { slug: luck_elixir,    name: "Luck Elixir",    desc: "Said to improve fortune. Gamblers swear by it; the Guild makes no promises." }
+
+categories:
+  A: "combat"
+  B: "arcane"
+  C: "sundries"
+
+static_events:
+  normal: "A gray, uneventful day at the shop."
+  demand_surge: "The streets are crowded, though the faces are drawn and hurried."
+  demand_slump: "The streets are empty; the town keeps indoors."
+  demand_shift: "Worry in the town has turned certain wares necessary."
+  supply_shortage: "Suppliers speak of bad roads and wagons that never arrived."
+  supply_surplus: "Wagons arrive heavy; suppliers are anxious to be rid of their stock."
+  cash_windfall: "An unexpected sum finds its way to your purse; no one says from where."
+  cash_loss: "An unexpected expense falls upon the shop, as such things do here."
+  stock_loss: "Something got at the storeroom in the night; stock is gone."
+  delivery_delay: "Word comes of worse trouble than usual on the trade roads."
+
+gm_style: >
+  Write in the register of a market town in its lean years — the fairs
+  smaller than anyone remembers, doors barred early, debts recalled with
+  precision, weather that arrives like a creditor. Not horror, never gore,
+  nothing supernatural beyond what the town believes: the dread is ambient —
+  entropy, scarcity, suspicion, the sense that the good years are gone and
+  everyone is quietly measuring what remains. The town still lives: carts,
+  guild notices, funerals, gossip, small stubborn kindnesses that stand out
+  against the gray. Carry threads across days.
+
+system_prompt: prompts/fantasy_dark_system.md

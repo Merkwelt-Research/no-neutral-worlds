@@ -1,0 +1,20 @@
+# Run records: extract the Zenodo archive here
+runs/*
+!runs/.gitkeep
+
+# Regenerated figures
+figures/out/**/*.svg
+figures/out/**/*.png
+paper/figures/*
+!paper/figures/.gitkeep
+
+# Environment and caches
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+tmp/
+.DS_Store
+Thumbs.db

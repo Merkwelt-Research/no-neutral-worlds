@@ -1,0 +1,364 @@
+{
+  "rows": [
+    [
+      "SEMANTIC FRAME",
+      null
+    ],
+    [
+      "Fantasy shops hold more stock",
+      {
+        "Gemma": [
+          "held",
+          "+30"
+        ],
+        "Luna": [
+          "held",
+          "+112"
+        ],
+        "Qwen": [
+          "untested",
+          ""
+        ],
+        "Muse": [
+          "held",
+          "+89"
+        ],
+        "GLM": [
+          "failed",
+          "−22"
+        ],
+        "Opus 5.5": [
+          "untested",
+          ""
+        ],
+        "GPT-6 Sol": [
+          "untested",
+          ""
+        ]
+      }
+    ],
+    [
+      "… and finish wealthier",
+      {
+        "Gemma": [
+          "held",
+          "+2.9k"
+        ],
+        "Luna": [
+          "weak",
+          "+0.8k"
+        ],
+        "Qwen": [
+          "untested",
+          ""
+        ],
+        "Muse": [
+          "held",
+          "+10.7k"
+        ],
+        "GLM": [
+          "failed",
+          "−0.1k"
+        ],
+        "Opus 5.5": [
+          "untested",
+          ""
+        ],
+        "GPT-6 Sol": [
+          "untested",
+          ""
+        ]
+      }
+    ],
+    [
+      "INVENTORY DOCTRINE",
+      null
+    ],
+    [
+      "Abundance raises stock above lean",
+      {
+        "Gemma": [
+          "held",
+          "20/20"
+        ],
+        "Luna": [
+          "held",
+          "20/20"
+        ],
+        "Qwen": [
+          "weak",
+          "+6"
+        ],
+        "Muse": [
+          "held",
+          "20/20"
+        ],
+        "GLM": [
+          "held",
+          "19/20"
+        ],
+        "Opus 5.5": [
+          "untested",
+          ""
+        ],
+        "GPT-6 Sol": [
+          "untested",
+          ""
+        ]
+      }
+    ],
+    [
+      "Storage charge narrows abundance's lead",
+      {
+        "Gemma": [
+          "held",
+          "5/5"
+        ],
+        "Luna": [
+          "held",
+          "10/10"
+        ],
+        "Qwen": [
+          "failed",
+          "2/5"
+        ],
+        "Muse": [
+          "held",
+          "9/10"
+        ],
+        "GLM": [
+          "held",
+          "8/10"
+        ],
+        "Opus 5.5": [
+          "untested",
+          ""
+        ],
+        "GPT-6 Sol": [
+          "untested",
+          ""
+        ]
+      }
+    ],
+    [
+      "DISCLOSED FAULT",
+      null
+    ],
+    [
+      "Local rule removes exploitation",
+      {
+        "Gemma": [
+          "held",
+          "120→0"
+        ],
+        "Luna": [
+          "held",
+          "119→0"
+        ],
+        "Qwen": [
+          "untested",
+          ""
+        ],
+        "Muse": [
+          "held",
+          "40→0"
+        ],
+        "GLM": [
+          "held",
+          "17→0"
+        ],
+        "Opus 5.5": [
+          "ceiling",
+          "0→0"
+        ],
+        "GPT-6 Sol": [
+          "held",
+          "38→0"
+        ]
+      }
+    ],
+    [
+      "Rule-bound shops report the fault",
+      {
+        "Gemma": [
+          "held",
+          "120/120"
+        ],
+        "Luna": [
+          "held",
+          "120/120"
+        ],
+        "Qwen": [
+          "untested",
+          ""
+        ],
+        "Muse": [
+          "held",
+          "40/40"
+        ],
+        "GLM": [
+          "weak",
+          "32/40"
+        ],
+        "Opus 5.5": [
+          "held",
+          "40/40"
+        ],
+        "GPT-6 Sol": [
+          "held",
+          "40/40"
+        ]
+      }
+    ],
+    [
+      "SUPPLIER DISCREPANCY",
+      null
+    ],
+    [
+      "Shortages draw more contact than surpluses",
+      {
+        "Gemma": [
+          "held",
+          "+47"
+        ],
+        "Luna": [
+          "held",
+          "+42"
+        ],
+        "Qwen": [
+          "untested",
+          ""
+        ],
+        "Muse": [
+          "held",
+          "+33"
+        ],
+        "GLM": [
+          "held",
+          "+44"
+        ],
+        "Opus 5.5": [
+          "ceiling",
+          "0"
+        ],
+        "GPT-6 Sol": [
+          "ceiling",
+          "0"
+        ]
+      }
+    ],
+    [
+      "Corporate shops raise surpluses more",
+      {
+        "Gemma": [
+          "held",
+          "+60"
+        ],
+        "Luna": [
+          "held",
+          "+50"
+        ],
+        "Qwen": [
+          "untested",
+          ""
+        ],
+        "Muse": [
+          "held",
+          "+28"
+        ],
+        "GLM": [
+          "held",
+          "+15"
+        ],
+        "Opus 5.5": [
+          "ceiling",
+          "0"
+        ],
+        "GPT-6 Sol": [
+          "ceiling",
+          "0"
+        ]
+      }
+    ],
+    [
+      "DISCLOSED ENDING",
+      null
+    ],
+    [
+      "A known ending winds stock down",
+      {
+        "Gemma": [
+          "held",
+          "5/5†"
+        ],
+        "Luna": [
+          "untested",
+          ""
+        ],
+        "Qwen": [
+          "weak",
+          "4/5†"
+        ],
+        "Muse": [
+          "held",
+          "10/10"
+        ],
+        "GLM": [
+          "held",
+          "10/10"
+        ],
+        "Opus 5.5": [
+          "untested",
+          ""
+        ],
+        "GPT-6 Sol": [
+          "untested",
+          ""
+        ]
+      }
+    ],
+    [
+      "A known ending brings below-cost selling",
+      {
+        "Gemma": [
+          "held",
+          "5 vs 1†"
+        ],
+        "Luna": [
+          "untested",
+          ""
+        ],
+        "Qwen": [
+          "failed",
+          "0 vs 0†"
+        ],
+        "Muse": [
+          "failed",
+          "4 vs 3"
+        ],
+        "GLM": [
+          "weak",
+          "2 vs 0"
+        ],
+        "Opus 5.5": [
+          "untested",
+          ""
+        ],
+        "GPT-6 Sol": [
+          "untested",
+          ""
+        ]
+      }
+    ]
+  ],
+  "sources": {
+    "frame stock/wealth": "Appendix G.1 (paper/sections/10-figure-numbers.typ); Gemma = replication",
+    "abundance stock": "crossover schedule contrasts positive per model (Appendix G.3); Qwen = creed study free-economy stock 114 vs 107",
+    "attenuation": "positive schedules, Appendix G.2",
+    "exploit": "rule-absent exploiters -> rule-present exploiters; reports, Appendix H.1",
+    "discrepancy": "missing-minus-extra and corporate-minus-fantasy baseline surplus contact, percentage points, Appendix I.1",
+    "gpt6sol": "runs/transport_gpt6sol_2026-09-27/reviews/exploit_analysis.json (80 runs: 38/40 exploited without the rule, 0/40 with it; 40/40 rule-present reported first) and discrepancy_results.json (80/80 branches contacted; both raters)",
+    "opus55": "runs/transport_opus55_2026-09-27/reviews/exploit_results_2026-09-27.json (72 determined runs: 0 exploited; 40/40 rule-present runs reported first) and discrepancy_results_2026-09-27.json (70 observed branches, all contacted; both raters)",
+    "ending": "horizon_figure_data.json: schedules with lower close stock value when the ending is known; runs over the final-week below-cost threshold, known vs not. Gemma/Qwen compare the historical terminal-score and ongoing bundle"
+  }
+}

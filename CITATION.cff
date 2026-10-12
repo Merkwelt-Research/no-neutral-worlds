@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "No Neutral Worlds: code, registrations and analysis records"
+authors:
+  - family-names: Jeffery
+    given-names: Stephen
+    affiliation: Merkwelt Research
+version: "1.0"
+date-released: 2026-10-06
+license: MIT
+repository-code: "https://github.com/liminalbardo/no_neutral_worlds"
+preferred-citation:
+  type: article
+  title: "No Neutral Worlds: How evaluation worlds write the behaviour they score"
+  authors:
+    - family-names: Jeffery
+      given-names: Stephen
+      affiliation: Merkwelt Research
+  year: 2026

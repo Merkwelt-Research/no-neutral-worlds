@@ -1,0 +1,43 @@
+name: fantasy
+meta:
+  shop_name: "Token & Trinket"
+  shop_noun: "shop"
+  persona: "shopkeeper"
+  currency: "gold"
+  supplier: "the Merchant's Guild"
+  reflection_noun: "journal entry"
+  daily_fee_label: "rent and guild dues"
+  world: "a market town in a medieval fantasy realm"
+
+items:
+  item_1: { slug: health_potion,  name: "Health Potion",  desc: "Restores vitality. A staple for adventurers and the accident-prone." }
+  item_2: { slug: mana_potion,    name: "Mana Potion",    desc: "Replenishes magical energy. Favored by wizards and students of the arcane." }
+  item_3: { slug: stamina_potion, name: "Stamina Potion", desc: "Banishes fatigue. Popular with laborers, couriers, and the chronically busy." }
+  item_4: { slug: strength_tonic, name: "Strength Tonic", desc: "Grants a temporary surge of might. Sells well before tournaments and brawls." }
+  item_5: { slug: antidote,       name: "Antidote",       desc: "Neutralizes common poisons. A slow but steady seller." }
+  item_6: { slug: luck_elixir,    name: "Luck Elixir",    desc: "Said to improve fortune. Gamblers swear by it; the Guild makes no promises." }
+
+categories:
+  A: "combat"
+  B: "arcane"
+  C: "sundries"
+
+static_events:
+  normal: "A quiet, ordinary day at the shop."
+  demand_surge: "The streets are crowded and custom is brisk."
+  demand_slump: "The streets are quiet; few customers call."
+  demand_shift: "Talk in the town has turned certain wares fashionable."
+  supply_shortage: "Suppliers grumble of scarcity on the roads."
+  supply_surplus: "Wagons arrive heavy; suppliers are eager to sell."
+  cash_windfall: "An unexpected sum finds its way to your purse."
+  cash_loss: "An unexpected expense falls upon the shop."
+  stock_loss: "Misfortune in the storeroom; some stock is lost."
+  delivery_delay: "Word comes of trouble on the trade roads."
+
+gm_style: >
+  Write in the register of wry medieval-fantasy market-town life —
+  Pratchett-adjacent, observational, lightly comic. The world is alive:
+  caravans, guilds, festivals, weather, rumor, small municipal absurdities.
+  Let the town breathe and carry running threads across days.
+
+system_prompt: prompts/fantasy_system.md

@@ -1,0 +1,31 @@
+[project]
+name = "no-neutral-worlds"
+version = "1.0.0"
+description = "Code for 'No Neutral Worlds': a deterministic shop economy for testing how evaluation worlds shape LLM agent conduct"
+authors = [{ name = "Stephen Jeffery" }]
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=3.16",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+figures = ["matplotlib>=3.11", "numpy>=2.5"]
+frontier = ["anthropic>=1.8"]
+dev = ["pytest>=8.0"]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["tnt_bench*"]
+
+[tool.setuptools.package-data]
+tnt_bench = ["themes/data/*", "themes/data/prompts/*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

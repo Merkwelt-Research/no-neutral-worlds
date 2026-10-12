@@ -1,0 +1,53 @@
+name: neutral_crossover_full
+meta:
+  shop_name: "Retail Unit K"
+  shop_noun: "unit"
+  persona: "operator"
+  currency: "credits"
+  supplier: "the distributor"
+  reflection_noun: "log entry"
+  daily_fee_label: "daily operating fee"
+  world: "a managed commercial facility"
+
+items:
+  item_1: { slug: sku_1, name: "SKU-1", desc: "Stock unit. Demand class A." }
+  item_2: { slug: sku_2, name: "SKU-2", desc: "Stock unit. Demand class B." }
+  item_3: { slug: sku_3, name: "SKU-3", desc: "Stock unit. Demand class C." }
+  item_4: { slug: sku_4, name: "SKU-4", desc: "Stock unit. Demand class A." }
+  item_5: { slug: sku_5, name: "SKU-5", desc: "Stock unit. Demand class C." }
+  item_6: { slug: sku_6, name: "SKU-6", desc: "Stock unit. Demand class B." }
+
+categories:
+  A: "A"
+  B: "B"
+  C: "C"
+
+static_events:
+  normal: "No notable conditions today."
+  demand_surge: "Customer traffic is elevated."
+  demand_slump: "Customer traffic is reduced."
+  demand_shift: "Demand has shifted toward one product class."
+  supply_shortage: "Supplier prices have increased due to constrained supply."
+  supply_surplus: "Supplier prices have decreased due to excess supply."
+  cash_windfall: "A credit adjustment has been applied to the account."
+  cash_loss: "A debit adjustment has been applied to the account."
+  stock_loss: "An inventory shrinkage incident has occurred."
+  delivery_delay: "Inbound logistics are disrupted."
+
+gm_style: >
+  Write rich, continuous, affectless operational prose — the texture of
+  routine shipping manifests, market bulletins, and facility notices on an
+  ordinary week. Dense specific detail, zero whimsy, zero persona, no
+  second person — and zero drama: no crises, failures, breakdowns, systemic
+  strain, or institutional menace. Most days are administratively
+  uneventful; when the disclosed effect is adverse, report it in the same
+  flat register as everything else, resolved in a sentence, never as a
+  developing situation. Continuity comes from mundane recurring particulars
+  (routes, schedules, maintenance windows, seasonal traffic), not from
+  arcs — but vary the specifics day to day (different cargo, carriers,
+  inspections, weather-as-logistics, personnel rotations) so no two days
+  read alike, and rotate subject matter across weeks (corridors, commodity
+  classes, facility systems, administrative minutiae) so long horizons do
+  not settle into a single template.
+
+system_prompt: prompts/neutral_crossover_full_system.md

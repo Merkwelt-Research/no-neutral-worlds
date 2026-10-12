@@ -1,0 +1,41 @@
+# Latent Archives phosphor — the house dark style (docs/FIGURES.md).
+# Near-black ground, cream primary ink, pale-violet secondary ink.
+# Palette validated 2026-07-08 (see figures/palette.py for the record).
+
+figure.facecolor: 0a0a0f
+axes.facecolor: 0a0a0f
+savefig.facecolor: 0a0a0f
+
+text.color: e8e2d0
+axes.labelcolor: e8e2d0
+axes.titlecolor: e8e2d0
+xtick.color: b8aed4
+ytick.color: b8aed4
+axes.edgecolor: 6a6480
+
+# Temperament order: Gemma gold, Qwen violet, Sonnet teal, Gemini coral.
+axes.prop_cycle: cycler('color', ['bc861c', '9678e4', '1ea482', 'dc5844'])
+
+axes.spines.top: False
+axes.spines.right: False
+axes.grid: False
+axes.linewidth: 0.8
+
+lines.linewidth: 2.0
+lines.markersize: 8
+lines.solid_capstyle: round
+
+font.family: sans-serif
+font.size: 10.5
+axes.titlesize: 12
+axes.titleweight: bold
+axes.labelsize: 10.5
+xtick.labelsize: 9.5
+ytick.labelsize: 9.5
+legend.fontsize: 9.5
+legend.frameon: False
+
+figure.dpi: 110
+savefig.dpi: 200
+savefig.bbox: tight
+svg.fonttype: none

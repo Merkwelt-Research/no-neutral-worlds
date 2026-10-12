@@ -1,0 +1,41 @@
+# Print variant — cream ground, near-black ink (docs/FIGURES.md).
+# The arXiv/PDF face of the same figures; regenerate, don't restyle by hand.
+# Palette validated 2026-07-08 (see figures/palette.py for the record).
+
+figure.facecolor: f4f1ea
+axes.facecolor: f4f1ea
+savefig.facecolor: f4f1ea
+
+text.color: 1a1a1a
+axes.labelcolor: 1a1a1a
+axes.titlecolor: 1a1a1a
+xtick.color: 4a4640
+ytick.color: 4a4640
+axes.edgecolor: 4a4640
+
+# Temperament order: Gemma gold, Qwen violet, Sonnet teal, Gemini coral.
+axes.prop_cycle: cycler('color', ['9a6c10', '6a4cbc', '0f9078', 'b84030'])
+
+axes.spines.top: False
+axes.spines.right: False
+axes.grid: False
+axes.linewidth: 0.8
+
+lines.linewidth: 2.0
+lines.markersize: 8
+lines.solid_capstyle: round
+
+font.family: sans-serif
+font.size: 10.5
+axes.titlesize: 12
+axes.titleweight: bold
+axes.labelsize: 10.5
+xtick.labelsize: 9.5
+ytick.labelsize: 9.5
+legend.fontsize: 9.5
+legend.frameon: False
+
+figure.dpi: 110
+savefig.dpi: 200
+savefig.bbox: tight
+svg.fonttype: none

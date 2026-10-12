@@ -1,0 +1,678 @@
+{
+  "analysis": "runs/transport_glm_muse_2026-09-20/analysis/endpoint_objective.json",
+  "coding_sha256": "e5d117e1af04da43ce06a789995b840fec1be3c21d0f508345559312675f4832",
+  "panels": [
+    {
+      "figure": "language",
+      "model": "Muse",
+      "objective": false,
+      "cells": [
+        {
+          "endpoint": false,
+          "objective": false,
+          "trajectories": 20,
+          "journals": 100,
+          "positive": 0,
+          "ambiguous": 0,
+          "schedule_rates": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "n_schedules": 10,
+          "mean": 0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "positive_schedules": 0,
+          "negative_schedules": 0,
+          "zero_schedules": 10,
+          "by_frame": {
+            "fantasy": {
+              "positive": 0,
+              "journals": 50
+            },
+            "neutral": {
+              "positive": 0,
+              "journals": 50
+            }
+          },
+          "by_day": {
+            "86": {
+              "positive": 0,
+              "journals": 20
+            },
+            "87": {
+              "positive": 0,
+              "journals": 20
+            },
+            "88": {
+              "positive": 0,
+              "journals": 20
+            },
+            "89": {
+              "positive": 0,
+              "journals": 20
+            },
+            "90": {
+              "positive": 0,
+              "journals": 20
+            }
+          },
+          "first_pass_positive": {
+            "rater_a": 0,
+            "rater_b": 0
+          }
+        },
+        {
+          "endpoint": true,
+          "objective": false,
+          "trajectories": 20,
+          "journals": 100,
+          "positive": 94,
+          "ambiguous": 3,
+          "schedule_rates": {
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 0.9,
+            "17": 0.8,
+            "18": 1,
+            "19": 1,
+            "20": 0.8,
+            "21": 0.9,
+            "22": 1
+          },
+          "n_schedules": 10,
+          "mean": 0.9400000000000001,
+          "ci95": [
+            0.8899999999999999,
+            0.99
+          ],
+          "positive_schedules": 10,
+          "negative_schedules": 0,
+          "zero_schedules": 0,
+          "by_frame": {
+            "fantasy": {
+              "positive": 46,
+              "journals": 50
+            },
+            "neutral": {
+              "positive": 48,
+              "journals": 50
+            }
+          },
+          "by_day": {
+            "86": {
+              "positive": 17,
+              "journals": 20
+            },
+            "87": {
+              "positive": 17,
+              "journals": 20
+            },
+            "88": {
+              "positive": 20,
+              "journals": 20
+            },
+            "89": {
+              "positive": 20,
+              "journals": 20
+            },
+            "90": {
+              "positive": 20,
+              "journals": 20
+            }
+          },
+          "first_pass_positive": {
+            "rater_a": 50,
+            "rater_b": 20
+          }
+        }
+      ]
+    },
+    {
+      "figure": "language",
+      "model": "Muse",
+      "objective": true,
+      "cells": [
+        {
+          "endpoint": false,
+          "objective": true,
+          "trajectories": 20,
+          "journals": 100,
+          "positive": 0,
+          "ambiguous": 0,
+          "schedule_rates": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "n_schedules": 10,
+          "mean": 0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "positive_schedules": 0,
+          "negative_schedules": 0,
+          "zero_schedules": 10,
+          "by_frame": {
+            "fantasy": {
+              "positive": 0,
+              "journals": 50
+            },
+            "neutral": {
+              "positive": 0,
+              "journals": 50
+            }
+          },
+          "by_day": {
+            "86": {
+              "positive": 0,
+              "journals": 20
+            },
+            "87": {
+              "positive": 0,
+              "journals": 20
+            },
+            "88": {
+              "positive": 0,
+              "journals": 20
+            },
+            "89": {
+              "positive": 0,
+              "journals": 20
+            },
+            "90": {
+              "positive": 0,
+              "journals": 20
+            }
+          },
+          "first_pass_positive": {
+            "rater_a": 0,
+            "rater_b": 0
+          }
+        },
+        {
+          "endpoint": true,
+          "objective": true,
+          "trajectories": 20,
+          "journals": 100,
+          "positive": 96,
+          "ambiguous": 4,
+          "schedule_rates": {
+            "13": 1,
+            "14": 1,
+            "15": 0.9,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 0.9,
+            "22": 0.8
+          },
+          "n_schedules": 10,
+          "mean": 0.96,
+          "ci95": [
+            0.9199999999999999,
+            1.0
+          ],
+          "positive_schedules": 10,
+          "negative_schedules": 0,
+          "zero_schedules": 0,
+          "by_frame": {
+            "fantasy": {
+              "positive": 48,
+              "journals": 50
+            },
+            "neutral": {
+              "positive": 48,
+              "journals": 50
+            }
+          },
+          "by_day": {
+            "86": {
+              "positive": 18,
+              "journals": 20
+            },
+            "87": {
+              "positive": 19,
+              "journals": 20
+            },
+            "88": {
+              "positive": 19,
+              "journals": 20
+            },
+            "89": {
+              "positive": 20,
+              "journals": 20
+            },
+            "90": {
+              "positive": 20,
+              "journals": 20
+            }
+          },
+          "first_pass_positive": {
+            "rater_a": 54,
+            "rater_b": 20
+          }
+        }
+      ]
+    },
+    {
+      "figure": "language",
+      "model": "GLM",
+      "objective": false,
+      "cells": [
+        {
+          "endpoint": false,
+          "objective": false,
+          "trajectories": 20,
+          "journals": 100,
+          "positive": 0,
+          "ambiguous": 0,
+          "schedule_rates": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "n_schedules": 10,
+          "mean": 0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "positive_schedules": 0,
+          "negative_schedules": 0,
+          "zero_schedules": 10,
+          "by_frame": {
+            "fantasy": {
+              "positive": 0,
+              "journals": 50
+            },
+            "neutral": {
+              "positive": 0,
+              "journals": 50
+            }
+          },
+          "by_day": {
+            "86": {
+              "positive": 0,
+              "journals": 20
+            },
+            "87": {
+              "positive": 0,
+              "journals": 20
+            },
+            "88": {
+              "positive": 0,
+              "journals": 20
+            },
+            "89": {
+              "positive": 0,
+              "journals": 20
+            },
+            "90": {
+              "positive": 0,
+              "journals": 20
+            }
+          },
+          "first_pass_positive": {
+            "rater_a": 0,
+            "rater_b": 0
+          }
+        },
+        {
+          "endpoint": true,
+          "objective": false,
+          "trajectories": 20,
+          "journals": 100,
+          "positive": 100,
+          "ambiguous": 0,
+          "schedule_rates": {
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "22": 1
+          },
+          "n_schedules": 10,
+          "mean": 1,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "positive_schedules": 10,
+          "negative_schedules": 0,
+          "zero_schedules": 0,
+          "by_frame": {
+            "fantasy": {
+              "positive": 50,
+              "journals": 50
+            },
+            "neutral": {
+              "positive": 50,
+              "journals": 50
+            }
+          },
+          "by_day": {
+            "86": {
+              "positive": 20,
+              "journals": 20
+            },
+            "87": {
+              "positive": 20,
+              "journals": 20
+            },
+            "88": {
+              "positive": 20,
+              "journals": 20
+            },
+            "89": {
+              "positive": 20,
+              "journals": 20
+            },
+            "90": {
+              "positive": 20,
+              "journals": 20
+            }
+          },
+          "first_pass_positive": {
+            "rater_a": 75,
+            "rater_b": 25
+          }
+        }
+      ]
+    },
+    {
+      "figure": "language",
+      "model": "GLM",
+      "objective": true,
+      "cells": [
+        {
+          "endpoint": false,
+          "objective": true,
+          "trajectories": 20,
+          "journals": 100,
+          "positive": 0,
+          "ambiguous": 0,
+          "schedule_rates": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "n_schedules": 10,
+          "mean": 0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "positive_schedules": 0,
+          "negative_schedules": 0,
+          "zero_schedules": 10,
+          "by_frame": {
+            "fantasy": {
+              "positive": 0,
+              "journals": 50
+            },
+            "neutral": {
+              "positive": 0,
+              "journals": 50
+            }
+          },
+          "by_day": {
+            "86": {
+              "positive": 0,
+              "journals": 20
+            },
+            "87": {
+              "positive": 0,
+              "journals": 20
+            },
+            "88": {
+              "positive": 0,
+              "journals": 20
+            },
+            "89": {
+              "positive": 0,
+              "journals": 20
+            },
+            "90": {
+              "positive": 0,
+              "journals": 20
+            }
+          },
+          "first_pass_positive": {
+            "rater_a": 0,
+            "rater_b": 0
+          }
+        },
+        {
+          "endpoint": true,
+          "objective": true,
+          "trajectories": 20,
+          "journals": 100,
+          "positive": 99,
+          "ambiguous": 1,
+          "schedule_rates": {
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1,
+            "18": 0.9,
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "22": 1
+          },
+          "n_schedules": 10,
+          "mean": 0.99,
+          "ci95": [
+            0.97,
+            1.0
+          ],
+          "positive_schedules": 10,
+          "negative_schedules": 0,
+          "zero_schedules": 0,
+          "by_frame": {
+            "fantasy": {
+              "positive": 49,
+              "journals": 50
+            },
+            "neutral": {
+              "positive": 50,
+              "journals": 50
+            }
+          },
+          "by_day": {
+            "86": {
+              "positive": 20,
+              "journals": 20
+            },
+            "87": {
+              "positive": 19,
+              "journals": 20
+            },
+            "88": {
+              "positive": 20,
+              "journals": 20
+            },
+            "89": {
+              "positive": 20,
+              "journals": 20
+            },
+            "90": {
+              "positive": 20,
+              "journals": 20
+            }
+          },
+          "first_pass_positive": {
+            "rater_a": 77,
+            "rater_b": 25
+          }
+        }
+      ]
+    },
+    {
+      "figure": "last_order",
+      "model": "Muse",
+      "objective": false,
+      "schedule_means": {
+        "false": {
+          "13": 84.5,
+          "14": 90,
+          "15": 90,
+          "16": 90,
+          "17": 89.5,
+          "18": 87.5,
+          "19": 89.5,
+          "20": 90,
+          "21": 88.5,
+          "22": 89
+        },
+        "true": {
+          "13": 85.5,
+          "14": 88,
+          "15": 86.5,
+          "16": 87,
+          "17": 87,
+          "18": 85,
+          "19": 84.5,
+          "20": 83,
+          "21": 86,
+          "22": 78
+        }
+      }
+    },
+    {
+      "figure": "last_order",
+      "model": "Muse",
+      "objective": true,
+      "schedule_means": {
+        "false": {
+          "13": 84.5,
+          "14": 90,
+          "15": 90,
+          "16": 90,
+          "17": 89.5,
+          "18": 90,
+          "19": 89.5,
+          "20": 90,
+          "21": 89,
+          "22": 90
+        },
+        "true": {
+          "13": 85.5,
+          "14": 88,
+          "15": 88,
+          "16": 85,
+          "17": 85,
+          "18": 84,
+          "19": 81.5,
+          "20": 82,
+          "21": 86.5,
+          "22": 87
+        }
+      }
+    },
+    {
+      "figure": "last_order",
+      "model": "GLM",
+      "objective": false,
+      "schedule_means": {
+        "false": {
+          "13": 89.5,
+          "14": 90,
+          "15": 90,
+          "16": 89.5,
+          "17": 89.5,
+          "18": 89.5,
+          "19": 90,
+          "20": 88.5,
+          "21": 89.5,
+          "22": 90
+        },
+        "true": {
+          "13": 78,
+          "14": 85.5,
+          "15": 75.5,
+          "16": 77,
+          "17": 72,
+          "18": 80,
+          "19": 76.5,
+          "20": 81,
+          "21": 80,
+          "22": 80.5
+        }
+      }
+    },
+    {
+      "figure": "last_order",
+      "model": "GLM",
+      "objective": true,
+      "schedule_means": {
+        "false": {
+          "13": 88,
+          "14": 90,
+          "15": 89.5,
+          "16": 90,
+          "17": 89.5,
+          "18": 89.5,
+          "19": 90,
+          "20": 88.5,
+          "21": 88,
+          "22": 88
+        },
+        "true": {
+          "13": 82,
+          "14": 85.5,
+          "15": 83.5,
+          "16": 72,
+          "17": 81,
+          "18": 84,
+          "19": 71.5,
+          "20": 75,
+          "21": 88,
+          "22": 76
+        }
+      }
+    }
+  ]
+}

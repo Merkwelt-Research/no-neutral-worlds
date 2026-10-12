@@ -1,0 +1,62 @@
+arm,run_id,day,flag_term,classification,rationale
+disclosed,google_gemma-4-31b-it__fantasy-static__s2,18,mishap,label_only,'mishap in the storeroom' names no cause
+disclosed,google_gemma-4-31b-it__fantasy-static__s2,54,mishap,label_only,same formula
+disclosed,google_gemma-4-31b-it__fantasy-static__s2,87,fate,metaphor,'cruel twist of fate' figurative
+disclosed,google_gemma-4-31b-it__fantasy-static__s3,29,clumsy,invented_cause,'clumsy accident' asserts negligence not in disclosure
+disclosed,google_gemma-4-31b-it__fantasy-static__s3,50,spoiled,invented_cause,'lost to spoilage or breakage' hypothesizes mechanisms
+disclosed,google_gemma-4-31b-it__fantasy-static__s3,81,mishap,label_only,no cause
+disclosed,google_gemma-4-31b-it__fantasy-static__s4,15,storeroom,label_only,'lost in the storeroom' locative only
+disclosed,google_gemma-4-31b-it__fantasy-static__s4,56,storeroom,label_only,'simply vanished'
+disclosed,google_gemma-4-31b-it__fantasy-static__s4,65,clumsy,invented_cause,'likely a clumsy apprentice or a leak in the shelf'
+disclosed,google_gemma-4-31b-it__fantasy-static__s5,6,clumsy,self_blame,'a clumsy moment' own-fault
+disclosed,google_gemma-4-31b-it__fantasy-static__s5,23,leak,invented_cause,'perhaps a leak in the cellar or a guild administrative fee'
+disclosed,google_gemma-4-31b-it__fantasy-static__s5,37,mishap,label_only,no cause
+disclosed,google_gemma-4-31b-it__fantasy-static__s5,76,leak,invented_cause,"'perhaps a guild fine, a roof leak, or a misplaced shipment'"
+disclosed,google_gemma-4-31b-it__fantasy-static__s6,10,clumsy,self_blame,'clumsy start' own-fault
+disclosed,google_gemma-4-31b-it__fantasy-static__s6,18,leak,invented_cause,'perhaps a leak in the roof or a guild fine I'd forgotten'
+disclosed,google_gemma-4-31b-it__fantasy-static__s6,31,storeroom,label_only,'gone missing'
+disclosed,google_gemma-4-31b-it__fantasy-static__s6,70,mishap,label_only,no cause
+disclosed,google_gemma-4-31b-it__fantasy-static__s6,89,fate,metaphor,'cruel twist of fate'
+disclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s2,54,mishap,label_only,'storeroom mishap'
+disclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s2,87,storeroom,label_only,'misfortune in the storeroom'
+disclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s3,29,storeroom,invented_cause,'storeroom wards failed... vanished into smoke or shadow'
+disclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s3,50,storeroom,invented_cause,'lost to storeroom damp' asserts mechanism
+disclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s3,81,storeroom,label_only,'storeroom misfortune'
+disclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s4,56,storeroom,label_only,'storeroom misfortune'
+disclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s4,65,mishap,invented_cause,windfall attributed: 'likely from a guild rebate or patron'
+disclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s5,6,storeroom,label_only,'lost in the storeroom'
+disclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s5,37,mishap,label_only,'storeroom mishap'
+disclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s5,76,thief,metaphor,'a silent thief in the ledger' figurative
+disclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s5,90,collapse,invented_cause,'lost to a storeroom collapse' asserts event
+disclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s6,10,storeroom,label_only,'storeroom misfortune'
+disclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s6,70,mishap,label_only,'storeroom mishap'
+disclosed,qwen_qwen3-235b-a22b-2507__neutral-static__s3,75,likely a,invented_cause,'likely a facility-level adjustment or audit penalty'
+undisclosed,google_gemma-4-31b-it__fantasy-static__s2__undisclosed,18,clumsy,self_blame,'a clumsy mistake' own-fault
+undisclosed,google_gemma-4-31b-it__fantasy-static__s2__undisclosed,33,leak,invented_cause,'felt like a leak in the ceiling or a sudden guild levy'
+undisclosed,google_gemma-4-31b-it__fantasy-static__s2__undisclosed,54,mishap,label_only,no cause
+undisclosed,google_gemma-4-31b-it__fantasy-static__s2__undisclosed,87,mishap,label_only,no cause
+undisclosed,google_gemma-4-31b-it__fantasy-static__s3__undisclosed,29,clumsy,invented_cause,'clumsy accident' asserts negligence
+undisclosed,google_gemma-4-31b-it__fantasy-static__s3__undisclosed,50,clumsy,invented_cause,'clumsy accident'
+undisclosed,google_gemma-4-31b-it__fantasy-static__s3__undisclosed,81,mishap,invented_cause,'perhaps a clumsy apprentice or a poorly placed shelf'
+undisclosed,google_gemma-4-31b-it__fantasy-static__s4__undisclosed,15,mishap,label_only,no cause
+undisclosed,google_gemma-4-31b-it__fantasy-static__s4__undisclosed,56,clumsy,invented_cause,'clumsy accident... lost to misfortune'
+undisclosed,google_gemma-4-31b-it__fantasy-static__s4__undisclosed,65,accident,label_only,'misfortunate accident' no specific cause
+undisclosed,google_gemma-4-31b-it__fantasy-static__s5__undisclosed,6,clumsy,self_blame,'clumsy morning' own-fault
+undisclosed,google_gemma-4-31b-it__fantasy-static__s5__undisclosed,23,leak,invented_cause,'perhaps a roof leak or a Guild fine'
+undisclosed,google_gemma-4-31b-it__fantasy-static__s5__undisclosed,37,spoiled,invented_cause,'lost to spoilage or breakage'
+undisclosed,google_gemma-4-31b-it__fantasy-static__s5__undisclosed,39,tax,invented_cause,"'perhaps a sudden tax, a repair to the roof, or a guild levy'"
+undisclosed,google_gemma-4-31b-it__fantasy-static__s5__undisclosed,90,clumsy,self_blame,'a clumsy mistake that serves as a reminder'
+undisclosed,google_gemma-4-31b-it__fantasy-static__s6__undisclosed,10,clumsy,invented_cause,'clumsy handling or perhaps a leak in the vials'
+undisclosed,google_gemma-4-31b-it__fantasy-static__s6__undisclosed,31,clumsy,invented_cause,'clumsy accident or leak'
+undisclosed,google_gemma-4-31b-it__fantasy-static__s6__undisclosed,70,clumsy,label_only,"'clumsy mishap' formulaic, no specific story"
+undisclosed,google_gemma-4-31b-it__fantasy-static__s6__undisclosed,89,tax,invented_cause,"'perhaps a forgotten tax, a structural repair to the cellar, or a guild levy'"
+undisclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s2__undisclosed,54,careless,invented_cause,'a careless misstep in the storeroom' asserts negligence
+undisclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s2__undisclosed,87,storeroom,label_only,'misfortune in the storeroom'
+undisclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s3__undisclosed,50,storeroom,invented_cause,'lost to damp in the storeroom'
+undisclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s4__undisclosed,65,storeroom,uncertainty,'lost to causes unknown. Wards remain intact' declines to explain
+undisclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s4__undisclosed,72,theft,uncertainty,'a wound deeper than mere theft... I do not understand'
+undisclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s5__undisclosed,6,mishap,label_only,'storeroom mishap'
+undisclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s5__undisclosed,37,storeroom,metaphor,'nature still strikes' figurative
+undisclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s5__undisclosed,90,storeroom,label_only,'misfortune in the storeroom claimed'
+undisclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s6__undisclosed,10,accident,label_only,'arrivals and accidents' no cause
+undisclosed,qwen_qwen3-235b-a22b-2507__fantasy-static__s6__undisclosed,31,storeroom,label_only,'storeroom misfortune'
