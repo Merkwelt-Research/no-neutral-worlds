@@ -11,6 +11,10 @@ date-released: 2026-10-13
 license: MIT
 repository-code: "https://github.com/Merkwelt-Research/no-neutral-worlds"
 url: "https://merkwelt.org/papers/no-neutral-worlds/"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23325311
+    description: "Run records (Zenodo data archive)"
 preferred-citation:
   type: report
   title: "No Neutral Worlds: How evaluation worlds write the behaviour they score"

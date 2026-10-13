@@ -6,8 +6,8 @@ LLM agents ran a small shop for ninety simulated days in a deterministic economy
 
 - **Paper:** [`paper/no-neutral-worlds.pdf`](paper/no-neutral-worlds.pdf)
 - **Supplement:** [`paper/no-neutral-worlds-supplement.pdf`](paper/no-neutral-worlds-supplement.pdf)
-- **Run records:** Zenodo archive, DOI to be added on release (see [Data](#data))
-- **Registrations:** [`docs/osf/`](docs/osf), mirrored on OSF
+- **Run records:** Zenodo, [doi:10.5281/zenodo.23325311](https://doi.org/10.5281/zenodo.23325311) (see [Data](#data))
+- **Registrations:** [`docs/osf/`](docs/osf), mirrored on OSF at [osf.io/2amzd](https://osf.io/2amzd/)
 
 ## Versions
 
@@ -46,7 +46,7 @@ Figures use Segoe UI where installed and fall back to DejaVu Sans, so regenerate
 
 ## Data
 
-The run records are archived on Zenodo as one `.tar.xz` per collection, with a `SHA256SUMS` manifest. Extract each archive into `runs/`, so that, for example, `runs/exploit1/` and `runs/transport_gpt6sol_2026-09-27/` exist. Each collection holds its frozen plan or manifest, schedules, narration packs, per-day agent transcripts and journals, raw API logs, and, for later collections, a `source/` snapshot of the code that ran it.
+The run records are archived on Zenodo ([doi:10.5281/zenodo.23325311](https://doi.org/10.5281/zenodo.23325311)) as one `.tar.xz` per collection, with a `SHA256SUMS` manifest. Extract each archive into `runs/`, so that, for example, `runs/exploit1/` and `runs/transport_gpt6sol_2026-09-27/` exist. Each collection holds its frozen plan or manifest, schedules, narration packs, per-day agent transcripts and journals, raw API logs, and, for later collections, a `source/` snapshot of the code that ran it.
 
 | Collection | Folders |
 |---|---|
@@ -81,7 +81,7 @@ Scripts are run from the repository root. None of the scoring, analysis or figur
 | Summary figures | `make_transport_paper_figures.py`, `make_summary_figures.py` |
 | Opus 4.7/4.8 survey | `score_opus.py` |
 
-The registrations in `docs/osf/` give each arm's frozen analysis plan. `figures/out/print/*.json` holds the verified source data for each paper figure, so most figures can be redrawn without the run archive. Figure scripts write to `figures/out/print/` and copy SVGs to `paper/figures/`.
+The registrations in `docs/osf/` give each arm's frozen analysis plan. Several cite [`docs/PUBLICATION_POLICY.md`](docs/PUBLICATION_POLICY.md), adopted in July 2026, which governed how results were presented (paired contrasts, no leaderboards) and proposed tiered access to run records; its release tier has since been superseded by the full public archive. `figures/out/print/*.json` holds the verified source data for each paper figure, so most figures can be redrawn without the run archive. Figure scripts write to `figures/out/print/` and copy SVGs to `paper/figures/`.
 
 The frozen runners can check that the code matches the plan a collection ran under, for example:
 
